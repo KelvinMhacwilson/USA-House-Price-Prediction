@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 Flask
 pandas
 numpy
 scikit-learn
 gunicorn
-=======
-Flask==2.0.1
-pandas==1.3.3
-numpy==1.21.2
-scikit-learn==0.24.2
-scipy==1.7.1
->>>>>>> 1f02cb439b4cf6b3e88b2ac4201965c84b90918d
