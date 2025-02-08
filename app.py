@@ -48,7 +48,8 @@ def predict():
         try:
             input_df['city'] = encoder.transform(input_df[['city']])
         except ValueError:
-            return jsonify({'error': "Invalid city. Please enter a valid city."})
+            return jsonify({'error': f"City '{input_data['city']}' is not recognized. Please enter a valid city."})
+
 
         try:
             input_df['statezip'] = input_df['statezip'].str.extract(r'(\d+)').astype(int)
