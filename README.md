@@ -1,4 +1,4 @@
-
+# Machine learning Final Project
 ## Project Overview
 ### Deployed Model: https://usa-house-price-prediction-5keg.onrender.com/
 
@@ -65,4 +65,4 @@ The project includes a Jupyter Notebook for data exploration, preprocessing, and
 
 ## Model
 
-The trained model, along with the encoder and scaler, are saved in the [model](http://_vscodecontentref_/4)
+The trained model, along with the encoder and scaler, are saved in the [model](./model/)
